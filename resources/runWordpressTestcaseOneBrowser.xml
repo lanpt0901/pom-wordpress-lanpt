@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Word press" parallel="tests" thread-count="3">
+  <listeners>
+  	<listener class-name="commons.MethodListener" />
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/> 
+    <!-- danh cho viec build Jenkin html thi build file xml dang JUNIT de lam input cho Jenkin de phan tich du lieu -->
+    <!-- Exntent report v2 -->
+    <!-- <listener class-name="reportConfig.ExtentReportListener"/> --> 
+    <!-- Exntent report v3 -->
+    <!-- <listener class-name="reportConfig.ExtentTestListener"/> -->
+    <!-- Exntent report v4 -->
+    <listener class-name="reportConfig.ExtentReportv4Listener"/>
+    
+  </listeners>
+  <test name="Run on Chrome">
+  	<parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="com.wordpress.login.Login_06_Log4j"/>
+    </classes>
+  </test> 
+  
+</suite> 

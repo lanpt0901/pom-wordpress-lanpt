@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="testcase"/>
+	<classpathentry kind="src" path="testdata"/>
+	<classpathentry kind="src" path="actions"/>
+	<classpathentry kind="src" path="interfaces"/>
+	<classpathentry kind="src" path="resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="libraries/selenium-server-standalone-2.53.1.jar"/>
+	<classpathentry kind="lib" path="webDriverManager/commons-io-2.7.jar"/>
+	<classpathentry kind="lib" path="webDriverManager/commons-lang3-3.10.jar"/>
+	<classpathentry kind="lib" path="webDriverManager/gson-2.8.6.jar"/>
+	<classpathentry kind="lib" path="webDriverManager/httpclient-4.5.12.jar"/>
+	<classpathentry kind="lib" path="webDriverManager/jarchivelib-1.0.0.jar"/>
+	<classpathentry kind="lib" path="webDriverManager/jsoup-1.13.1.jar"/>
+	<classpathentry kind="lib" path="webDriverManager/slf4j-api-1.7.30.jar"/>
+	<classpathentry kind="lib" path="webDriverManager/webdrivermanager-3.8.1.jar"/>
+	<classpathentry kind="lib" path="liblog4j/commons-codec-1.11.jar"/>
+	<classpathentry kind="lib" path="liblog4j/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="liblog4j/log4j-1.2.16.jar" sourcepath="C:/Users/HAU/AppData/Local/Temp/.org.sf.feeling.decompiler1599786082021/source/log4j-1.2.16-sources.jar"/>
+	<classpathentry kind="lib" path="libreportng/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="libreportng/guice-3.0.jar"/>
+	<classpathentry kind="lib" path="libreportng/reportng-1.1.4.jar"/>
+	<classpathentry kind="lib" path="libreportng/velocity-1.4.jar"/>
+	<classpathentry kind="lib" path="libExtentReport/Extent Report V4/bsh-2.0b4.jar"/>
+	<classpathentry kind="lib" path="libExtentReport/Extent Report V4/bson-3.3.0.jar"/>
+	<classpathentry kind="lib" path="libExtentReport/Extent Report V4/extentreports-4.0.9.jar"/>
+	<classpathentry kind="lib" path="libExtentReport/Extent Report V4/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="libExtentReport/Extent Report V4/gson-2.8.5.jar"/>
+	<classpathentry kind="lib" path="libExtentReport/Extent Report V4/httpclient-4.5.2.jar"/>
+	<classpathentry kind="lib" path="libExtentReport/Extent Report V4/httpcore-4.4.4.jar"/>
+	<classpathentry kind="lib" path="libExtentReport/Extent Report V4/httpmime-4.5.2.jar"/>
+	<classpathentry kind="lib" path="libExtentReport/Extent Report V4/jcommander-1.48.jar"/>
+	<classpathentry kind="lib" path="libExtentReport/Extent Report V4/mongodb-driver-3.3.0.jar"/>
+	<classpathentry kind="lib" path="libExtentReport/Extent Report V4/mongodb-driver-core-3.3.0.jar"/>
+	<classpathentry kind="lib" path="libExtentReport/Extent Report V4/testng-6.9.10.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

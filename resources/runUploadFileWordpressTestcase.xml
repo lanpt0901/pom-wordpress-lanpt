@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Word press" parallel="tests" thread-count="3">
+
+  <test name="Run on Firefox">
+  	<parameter name="browser" value="firefox"></parameter>
+    <classes>
+      <class name="com.wordpress.media.Media_01_uploadFile"/>
+    </classes>
+  </test>   
+  
+
+</suite> 
